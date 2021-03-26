@@ -18,12 +18,12 @@ Where
 public string Generate(int[] f_values, bool truth_table = false, bool const_groups = false, bool paste_groups = false, bool coating_table = false, bool answer = false)
 ```
 Where
-- * *int[] f_values* * are values of boolean functions to respective implicants. **Required**
-- * *bool truth_table* * indicates whether truth table will be printed. **Optional. Default: false**
-- * *bool const_groups* * indicates whether implicant groups will be printed. **Optional. Default: false**
-- * *bool paste_groups* * indicates whether size-2 implicant groups will be printed. **Optional. Default: false**
-- * *bool coating_table* * indicates whether cover table will be printed. **Optional. Default: false**
-- * *bool answer* * indicates whether answer will be printed. **Optional. Default: false**
+-  * *int[] f_values* * are values of boolean functions to respective implicants. **Required**
+-  * *bool truth_table* * indicates whether truth table will be printed. **Optional. Default: false**
+-  * *bool const_groups* * indicates whether implicant groups will be printed. **Optional. Default: false**
+-  * *bool paste_groups* * indicates whether size-2 implicant groups will be printed. **Optional. Default: false**
+-  * *bool coating_table* * indicates whether cover table will be printed. **Optional. Default: false**
+-  * *bool answer* * indicates whether answer will be printed. **Optional. Default: false**
 If something need to be printed, but don't exist in current function, this will be printed mannualy
 No matter what, function will be returned in string format and you can get it for further proccess
 ## Example of usage
