@@ -24,6 +24,7 @@ Where
 - *bool paste_groups* indicates whether size-2 implicant groups will be printed. **Optional. Default: false**
 - *bool coating_table* indicates whether cover table will be printed. **Optional. Default: false**
 - *bool answer* indicates whether answer will be printed. **Optional. Default: false**
+
 If something need to be printed, but don't exist in current function, this will be printed mannualy
 No matter what, function will be returned in string format and you can get it for further proccess
 ## Example of usage
