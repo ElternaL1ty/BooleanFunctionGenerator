@@ -1,4 +1,4 @@
-# BooleanFunctionMinimizer
+# BooleanFunctionGenerator
 BooleanFunctionMinimizer contains several classes that allow you to set and minimize boolean functions using known methods.
 ## Installation
 Download and extract .ZIP folder and copy BooleanFunctionMinimizer.cs to your project folder.
