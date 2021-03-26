@@ -14,6 +14,7 @@ public class QMC(string[] vars, bool t = true)
 Where
 - * *string[] vars* * is string array with names of boolean function variables. **Required**
 - * *bool t* * indicates whether truth table will be printed . **Optional. Default: true**
+
 **Generate function**
 ```c#
 public string Generate(int[] f_values, bool truth_table = false, bool const_groups = false, bool paste_groups = false, bool coating_table = false, bool answer = false)
