@@ -6,6 +6,7 @@ Download and extract .ZIP folder and copy BooleanFunctionMinimizer.cs to your pr
 BooleanFunctionMinimizer provides several methods to set and minimize functions that will be explained there
 ### Quine–McCluskey alghorithm (QMC)
 QMC method is setting a minimized boolean function from truth table, that goes by input. The main idea is to group similar prime implicants and build a table, that shows the covering of implicants.
+
 **Initialize a QMC object**
 ```c#
 public class QMC(string[] vars, bool t = true)
